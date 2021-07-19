@@ -1,10 +1,11 @@
 # Palabras del Diccionario de la Real Academia Española
 
-Pongo a disposición todas las palabras del idioma español en un sólo archivo `.txt` junto con el código en Python para generarlo desde las fuentes.
+Resultados:
+* [diccionario-rae-completo.txt](diccionario-rae-completo.txt) [📁](https://raw.githubusercontent.com/R-Evolution/palabras-rae-con-genero/main/diccionario-rae-completo.txt)
+* [rae-generos.txt](rae-generos.txt) [📁](https://github.com/R-Evolution/palabras-rae-con-genero/blob/main/rae-generos.txt)
 
-Los archivos fuente se obtuvieron desde:
-
+Enlaces:
+* [Repo Original](https://github.com/fvillena/palabras-diccionario-rae-completo)
+* [Backup](https://github.com/R-Evolution/palabras-diccionario-rae-completo)
 * [Giusseppe Domínguez](https://www.giusseppe.net/blog/archivo/2015/10/29/diccionario-de-la-rae-en-modo-texto-plano/)
 * [hunspell dictionaries](https://github.com/wooorm/dictionaries/tree/master/dictionaries/es)
-
-Acepto _Pull Requests_ de nuevas palabras o corrección de las mismas.
