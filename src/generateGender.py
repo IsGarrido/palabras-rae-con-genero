@@ -1,9 +1,12 @@
 import os
 import re
+
 words = []
-for file in os.listdir():
+base_dir = "data\\rae\\"
+
+for file in os.listdir(base_dir):
     if file.endswith(".txt") and not file.startswith('dict'):
-        file = open(file, "r", encoding="utf-8")
+        file = open(base_dir + file, "r", encoding="utf-8")
         for line in file:
             words.append(line.rstrip())
 cleanWords = sorted(set([re.sub('[0-9- ]', '', word) for word in words]))
@@ -19,25 +22,13 @@ for word in withComma:
             prefix = male[:bondingPoint]
             female = prefix+suffix
             genderized.append(male + "\t" + female)
-			#genderized.append(male)
-            #genderized.append(female)
-            #print('%s - %s' % (male, suffix))
-            #print(female)
         else:
             if male.endswith('o'):
                 female = male[:-1] + suffix
                 genderized.append(male + "\t" + female)
-                #genderized.append(male)
-                #genderized.append(female)
-                #print('%s - %s' % (male, suffix))
-                #print(female)
             else:
             	female = male + suffix
             	genderized.append(male + "\t" + female)
-                #genderized.append(male)
-                #genderized.append(female)
-                #print('%s - %s' % (male, suffix))
-                #print(female)
     except:
         print(male)
 words = sorted(set(genderized))
