@@ -3239,6 +3239,7 @@ agencioso
 agenda
 agenesia
 agenta
+agente
 agentiva
 agentivo
 agerasia

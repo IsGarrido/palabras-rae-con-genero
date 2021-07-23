@@ -1,7 +1,11 @@
 # Palabras del Diccionario de la Real Academia Española
 
-Ejecutar
-
+Ejecutar:  
+```
+cd src  
+python genderizer.py
+python generateGender.py
+```  
 
 Resultados:
 * [diccionario-rae-completo.txt](diccionario-rae-completo.txt) [📁](https://raw.githubusercontent.com/R-Evolution/palabras-rae-con-genero/main/diccionario-rae-completo.txt)

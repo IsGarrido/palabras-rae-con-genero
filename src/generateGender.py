@@ -2,7 +2,7 @@ import os
 import re
 
 words = []
-base_dir = "data\\rae\\"
+base_dir = "data/rae/"
 
 for file in os.listdir(base_dir):
     if file.endswith(".txt") and not file.startswith('dict'):
